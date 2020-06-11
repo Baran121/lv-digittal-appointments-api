@@ -1,0 +1,16 @@
+api:
+  id: "16198013"
+http:
+  path: "/*"
+  port: "8081"
+  responseTimeout: "10000"
+  
+implementation:
+  host: "dataservice.accuweather.com"
+  port: "443"
+  path: "/"
+  protocol: "HTTPS"
+   
+todo:
+  host: "jsonplaceholder.typicode.com"
+  port: "443"
